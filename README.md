@@ -8,6 +8,7 @@ This is a Node.js-based backend application that helps users track their subscri
 - Automatically calculates renewal dates based on frequency
 - Automatically sends email reminders if a subscription is expiring within the next 7 days
 - Uses **Node Cron** to schedule daily checks
+- Express rate limiter blocks spam users (too many requests)
 - Clean project structure with Mongoose models, utility helpers, and modular controllers
   
 ## Tech Stack
@@ -16,6 +17,7 @@ This is a Node.js-based backend application that helps users track their subscri
 - **MongoDB & Mongoose**
 - **Node-Cron**
 - **Day.js** (for date manipulation)
+- **Express-rate-limite**
 - **Nodemailer** (for sending emails)
 
 
